@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "google",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true,
+    }
+  },
+  "rules": {
+    "react/prop-types": 0,
+    "require-jsdoc": 0
+  }
+}
